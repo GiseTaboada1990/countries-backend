@@ -29,7 +29,7 @@ let sequelize =
         ssl: true,
       })
     : new Sequelize(
-        `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pokemon`,
+        `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/country`,
         { logging: false, native: false }
       );
 const basename = path.basename(__filename);
